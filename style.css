@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+/* header start */
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url('image/foooooooon.jpg') no-repeat center center / cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+marquee {
+    color: black;
+    margin-top: 10px;
+}
+
+/* section start */
+
+section img {
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    color: green;
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+    transition: 1s;
+}
+
+h2:hover {
+    font-size: 60px;
+    background-color: greenyellow;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+h3 {
+    font-size: 30px;
+    color: green;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h4 {
+    font-size: 25px;
+    color: green;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+strong {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: green;
+}
